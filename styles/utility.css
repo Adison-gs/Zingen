@@ -25,7 +25,8 @@
 }
 
 .even-columns{
-  display: grid;
+display: grid;
+gap: 1rem;
 }
 
 .flex{
