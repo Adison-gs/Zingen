@@ -40,6 +40,8 @@
   --py-base: 1rem;
   --py-lg: 1.5rem;
   --py-xl: 3rem;
+
+  --linear-gradient: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
 }
 
 html {
@@ -79,6 +81,13 @@ h3 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  background: var(--linear-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"] {
